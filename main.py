@@ -14,16 +14,17 @@
 
 seconds = [1.23, 1.45, 1.02]
 current = 1.11
-
+seconds.append(current)
+print(seconds)
 # Remove item 1.45 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
-
-
+seconds.remove(1.45)
+print(seconds)
 # Remove items 1.45, 1.02, and 1.11 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
-
-
-################################comparison operators#########################
+newSeconds = seconds[1:]
+print(newSeconds)
+################################comp arison operators#########################
 #remember....
 # > greater
 # < less
