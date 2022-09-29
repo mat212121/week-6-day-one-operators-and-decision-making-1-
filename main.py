@@ -273,14 +273,23 @@ my_list = ['a','b','c','d']
 for letter in my_list:
   letter_number = my_list.index(letter)+1
   print(f"letter {letter_number}: {letter}")
-  
+
+my_list = ["paul", "laura", "jacob", "louis", "julia"]
+
+for name in my_list:
+  if name.startswith("l"):
+    print(name)
+  else:
+    print("this name does not begin with l")
+    
 # For Loops Practice #1
 # Using For loops, greet all members of a class, printing "Hello" + their name.
 
 # For example: "Hello Norville"
 
 students = ["Norville", "Fred", "Velma", "Daphne"]
-
+for student in students:
+  print(f"hello {student}")
 
 
 
